@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/peise1"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="标题"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:gravity="left|top"
+        android:hint="内容"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <Button
+        android:background="@drawable/btn_seletor_bg2"
+        android:id="@+id/btn_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="提交"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

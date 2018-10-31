@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peise1"
+    android:orientation="vertical"
+    tools:context=".activities.ManagerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/peise2">
+
+        <ImageButton
+            android:id="@+id/ib_finash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_seletor_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="请求建议"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_seletor_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="人员信息"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_seletor_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="快递查询"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_seletor_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="订单统计"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

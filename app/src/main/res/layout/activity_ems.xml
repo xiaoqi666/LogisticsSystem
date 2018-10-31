@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/peise1"
+    tools:context=".activities.EmsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical">
+
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="请输入快递单号"
+            android:singleLine="true"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:background="@drawable/btn_seletor_bg2"
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <com.baidu.mapapi.map.MapView
+        android:layout_marginTop="8dp"
+        android:id="@+id/mmap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"></com.baidu.mapapi.map.MapView>
+
+</LinearLayout>
