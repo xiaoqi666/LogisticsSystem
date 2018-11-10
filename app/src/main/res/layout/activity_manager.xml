@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/peise1"
+    android:background="#eeeeee"
     android:orientation="vertical"
     tools:context=".activities.ManagerActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/peise2">
+        android:background="#cccccc">
 
         <ImageButton
             android:id="@+id/ib_finash"
@@ -43,7 +43,7 @@
             android:checked="true"
             android:gravity="center"
             android:text="请求建议"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <RadioButton
@@ -55,7 +55,7 @@
             android:button="@null"
             android:gravity="center"
             android:text="人员信息"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <RadioButton
@@ -67,7 +67,7 @@
             android:button="@null"
             android:gravity="center"
             android:text="快递查询"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
         <RadioButton
@@ -79,7 +79,7 @@
             android:button="@null"
             android:gravity="center"
             android:text="订单统计"
-            android:textColor="#ffffff"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
 

@@ -9,12 +9,11 @@
     tools:context=".activities.GuideActivity">
 
     <TextView
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="欢迎使用物流公司客户信息系统\n\nV1.0"
-        android:textColor="#ffffff"
+        android:textColor="#222222"
         android:textSize="20sp" />
 
 </RelativeLayout>

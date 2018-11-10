@@ -54,7 +54,8 @@ public class AdviceFragment extends Fragment {
         String dateStr = sdf.format(new Date());
         if (TextUtils.isEmpty(content) || TextUtils.isEmpty(title)) {
             AppClient.showToast("内容或标题不能为空");
-            AppClient.showToast("提交成功");
+            // AppClient.showToast("提交成功");
+            return;
         }
         AdviceBean adviceBean = new AdviceBean();
         adviceBean.setContent(content);

@@ -54,12 +54,14 @@
         android:id="@+id/lv_info"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"></ListView>
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="8dp"></ListView>
 
     <TextView
-        android:layout_marginBottom="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:gravity="center"
         android:text="长按删除,单击修改" />
 

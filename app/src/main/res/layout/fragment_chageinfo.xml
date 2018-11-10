@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@color/peise1"
+    android:gravity="center"
     android:orientation="vertical">
 
     <LinearLayout
@@ -94,11 +94,13 @@
 
 
     <Button
-        android:background="@drawable/btn_seletor_bg2"
         android:id="@+id/btn_queren"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/card_background_selector"
         android:text="确认修改"
         android:textColor="#000000"
         android:textSize="20sp" />

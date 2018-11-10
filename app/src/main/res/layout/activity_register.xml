@@ -172,7 +172,7 @@
 
 
         <Button
-            android:background="@drawable/btn_seletor_bg2"
+            android:background="@drawable/card_background_selector"
             android:id="@+id/btn_register"
             android:layout_width="240dp"
             android:layout_height="wrap_content"

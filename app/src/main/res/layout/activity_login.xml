@@ -80,17 +80,16 @@
             android:id="@+id/btn_register"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/btn_seletor_bg2"
+            android:background="@drawable/card_background_selector"
             android:text="注册"
             android:textSize="18dp" />
 
         <Button
-
             android:id="@+id/btn_login"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:background="@drawable/btn_seletor_bg2"
+            android:background="@drawable/card_background_selector"
             android:text="登录"
             android:textSize="18dp" />
 
